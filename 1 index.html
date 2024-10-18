@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <script>
-      // Create a simple function with name firstFunction().
+        // Create a simple function with name firstFunction().
+        // and stored the value in console ('This is my first function')
+        // and call the function firstFunction().
 
-      function firstFunction() {}
-      firstFunction();
+        function firstFunction() {
+            console.log("This is my first function");
+        }
+        firstFunction();
 
-      // and stored the value in console ('This is my first function')
+        //       Create a function with name square().
+        // The function square() takes one parameter and parameter name is num.
+        // Return the parameter (num) multiplied by itself. Example like (num * num)
+        // and call the function square() and store the result in console.
 
-      function firstFunction() {
-        console.log("This is my first function");
-      }
+        function square(num) {
+            return num * num;
+        }
+        console.log(square(8));
 
-      // and call the function firstFunction().
+        // Create a one function with name is Addition()
+        // The function Addition() takes Four parameter like num1,num2,num3,num4.
+        // take a one variable in function that is result and stored the addition of this four paramater in the result
+        // Resturn the result variable under the function
+        // and now call the Addition() function
 
-      function firstFunction() {
-        console.log("This is my first function");
-      }
-      firstFunction();
+        function Addition(num1, num2, num3, num4) {
+            result = num1 + num2 + num3 + num4;
+            return result;
+        }
+        Addition(10, 20, 30, 90);
+        // alert(Addition(10, 20, 30, 90));
+        // console.log(Addition(10, 20, 30, 90));
     </script>
-  </body>
+</body>
+
 </html>
